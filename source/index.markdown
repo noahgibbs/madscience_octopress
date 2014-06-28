@@ -1,86 +1,108 @@
 ---
-layout: page
-title: "The Best Code in the World, Sitting Idle in Your Repo, Is Worthless"
+layout: bg_page
+title: "The Gap Between Your Machine and Production Kills Rails Apps"
 comments: false
 sharing: false
 sidebar: false
 footer: true
 no_navbar: true
 ---
-How much of your well-crafted, beautiful code never gets used?
+Is that Rails app deployed yet? Or are you still waiting and hoping?
 
-{% img right /images/hasnt_retweeted_600.png 600 247 "Oh, I guess he's too pretty to tweet right now." "Igor says: Brad Pitt has not retweeted his favorite products with our app, master!" %}
+If it's just on your dev machine, nobody else ever sees it.
 
-How much of your code never even ships?  It’s on a computer somewhere,
-but nobody else can use it?
+{% img right /images/hasnt_retweeted_600.png 600 247 "Perhaps he is too pretty to tweet right now." "Igor says: Brad Pitt has not retweeted his favorite products with our app, master!" %}
 
-How many hours, days or years of your life have drained away on things
-nobody ever even tries out?
+How much of your code never leaves your dev box? "It works on my machine?"
 
-You might have a LinkedIn clone for mad scientists and
-assistants to meet up in your GitHub repo.  Or an app for sorting
-terabytes of data.  Or plain AI software for rampaging monsters --
-everything is now software-intensive.  But most of your code isn’t
-doing a thing.  It could.  But it isn’t.
+Wasted code. Wasted nights and weekends.
 
-People won't come to your GitHub account and try out the random
-things you leave there unused.  If you don't use it, neither will
-they.  And how much
-of your code even makes it that far?
+You tried. You Googled "Ruby Deployment." You read through <b><i>weird Rails guides,
+out-of-date blog posts</i></b> and many, many forums of <b><i>"why don't you use these
+three extra tools?"</i></b>
 
+You set up tools, and tools, and tools. Some of them even worked, though
+nothing did what you really wanted.
 
-## What If You Could Change the World Today?
+And of course, <b>your app breaks on most deploys</b>. It seems like every time you push a new
+version out, things break and you <i><b>hope that nobody
+notices</b></i>.
+
+<i>That <b>DREAD</b> when you get ready to <b>hit "deploy"</b>...</i>
+
+## What If You Knew It Would Just Work?
 
 {% img right /images/science_is_impeccable_700.png 700 316 "First step they skipped: deployment." "Master says: Impossible!  My white lab coat just arrived and my science is impeccable!  Hit reload!" %}
 
-Imagine your code being available, testable, and <b>usable</b>
-immediately.  As quickly as you get it working, you could just send
-out a link to it.  Igors could sign up for your LinkedIn clone.
-People could submit a gigabyte or two of test data to your signal
-extractor.  Monster-builders could download your new firmware with the
-latest rampage patterns… Instantly.
+What if your app just ran and everybody could use it?
 
-What if you were seen, linked to and cheered on?  Every development
-week, every day, every hour could make a different.  What if anybody
-in the world could find out, “hey, can this help and/or
-terrorize me?”
+What if it was easy to test new versions quietly, then push them
+out when they work?
 
-What if your best work could take off, could catch fire, could be everywhere that it could do good or evil?
+You could test your deployment ahead of time and fix mistakes
+<i>before</i> your users saw them &mdash; even deployment bugs.
+Even multiprocess bugs, bugs with Unicorn and bugs that only happen with
+RAILS_ENV=production.
 
-Immediately?
+What if you could write a new app and have it <i>up and running the
+same day</i> and feel <i>confident that it worked?</i>
+
+## But... How?
+
+Ruby Mad Science is an opinionated Ruby and Rails deployment class.
+It will teach you:
+
+<ul>
+  <li>Which tools to use, with full code</li>
+  <li>How to set up a development, staging and production environment</li>
+  <li>Repeatable deploy tool setup - so your deploy code still works in six months</li>
+  <li>Solid, simple monitoring for your app</li>
+</ul>
+
+You'll get the "OMG I need it NOW!" fast path with minimal theory, <b>plus</b> a
+slower path that teaches you what the tools do and why &mdash;
+deep knowledge for developers who like to know how everything ticks.
+
+(I wrote <a href="http://rebuilding-rails.com" target="_blank">Rebuilding Rails</a>,
+ I'm all for "deep knowledge" and "how everything ticks".)
+
+## The Blazing Fast Package
+
+(Not available yet. If you want to pay me more, I'll offer a package
+ upgrade soon.)
+
+<p class="text-muted">Want it all now, but don't want to learn a ton of theory?
+Buy the class, get the exact versions of everything you need, install them, copy the code into place.</p>
+
+<!--
+When and <i><b>only if you need it</b></i>, then you can read some troubleshooting guides.
+
+You'll get real working code and all future updates for free.
+
+Get your app working.
+
+Get the class textbook, the videos, the quick-start "Fast Path" guide and my free mini-course on Ruby Concurrency,
+all for $349.99.
+-->
+
+## The Class Package
+
+Don't need your deploy finished yesterday? Not sure you'll need the extras? Save money with the Class Package.
+You'll get the same class textbook
+and access to the same source code. But you'll have to download your own tools with the right versions.
+Don't worry, they're free online!
+
+Get the class textbook and introductory videos for only $79.99. Upgrade at any time if you need it.
 
 
+## Get What You Want
 
-## Let's Do Some Good And/Or Evil in the World
+Try this out for 60 days or until the final version is done &mdash; whichever is longer.
+If this class isn't exactly what you want, email me and get a refund.
 
-There are some great “instant deployment” solutions like Heroku, and
-my book covers them.  They’re useful.
-
-But there are also deployment solutions which need more
-setup.  We’ll go over those too, and when you’ll want or need to
-use them.  Puppet, EC2, VPS.
-
-We won’t cover everything.  “Everything” is huge.  But we’ll cover the
-a great beginning set of software, and where you go from there.  And
-better yet, when you write standard stuff you’ll have a simple,
-straightforward way to kick it out the door.
-
-And it’ll run.  And you can send out links to it.  And people can use it.
-
-{% img /images/change_for_better_800.png 800 438 "What else would change mean, after all?" "A mad scientist and assistant - Every change is a change for the better!" %}
-
-# Mad Scientists Get What They Want, Or Else
-
-You know what you do.  You know what you want.
-
-So: try this out for six months.  If it’s not what you want, email me
-and get a refund.
+It's that simple.
 
 You’ll have my personal email address.  I read every message you send.
-
-[Excerpt - “Praise for Rebuilding Rails”]
-
-
 
 # Join Us Now
 
