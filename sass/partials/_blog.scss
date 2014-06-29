@@ -1,11 +1,25 @@
 /* from whiterspace */
 article {
-  img, video, .flash-video {
+  img, video, .flash-video, .caption-wrapper {
     @extend .flex-content;
     @extend .basic-alignment;
   }
-  img:not(.no-border) {
+  img:not(.no-border), .caption-wrapper {
     @include shadow-box;
+    &.caption {
+      @include reset-shadow-box;
+    }
+  }
+  .caption-wrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+    .caption-text {
+      background: #fff;
+      text-align: center;
+      font-size: 1.0em;
+      color: #333;
+      display: block;
+    }
   }
   video, .flash-video { margin: 0 auto 1.5em; }
   video { display: block; width: 100%; }
