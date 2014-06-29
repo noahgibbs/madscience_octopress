@@ -1,7 +1,20 @@
-.page-background {
-  background-color: #cccccc;
+body {
+  background-image: url('/images/Graph-paper.svg');
 }
 
-.page-background .page-content {
+.page-content {
+  margin-top: 40px;
+  border: 2px solid #cceeee;
   background-color: #ffffff;
+}
+
+body article img:not(.no-border) {
+  border-color: #99aaaa;
+  border-width: 0.25em;
+  margin: 15px;
+}
+
+.buy-me-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

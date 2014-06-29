@@ -1,48 +1,44 @@
 ---
-layout: bg_page
-title: "The Gap Between Your Machine and Production Kills Rails Apps"
+layout: narrow_page
+title: "Is Your Rails App on a Server Yet?"
 comments: false
 sharing: false
 sidebar: false
 footer: true
 no_navbar: true
 ---
-Is that Rails app deployed yet? Or are you still waiting and hoping?
+Or are you trying to install three different tools, and hoping one of them helps?
 
-If it's just on your dev machine, nobody else ever sees it.
+You tried. You read through <b><i>Rails guides,
+ancient blog posts</i></b> and many, many forums of
+<b><i>"just switch to my favorite tool!"</i></b>
 
-{% img right /images/hasnt_retweeted_600.png 600 247 "Perhaps he is too pretty to tweet right now." "Igor says: Brad Pitt has not retweeted his favorite products with our app, master!" %}
+Also, most of the blog posts are flat-out wrong. Capistrano 3, Puppet 3, Chef 11,
+they all <b>break backward compatibility. A lot.</b>
 
-How much of your code never leaves your dev box? "It works on my machine?"
+{% imgcap right /images/deploy_tag_cloud.png 350 129 Everything you need to know? %}
 
-Wasted code. Wasted nights and weekends.
+<b>Your deploy system mostly works... And then breaks.</b>
 
-You tried. You Googled "Ruby Deployment." You read through <b><i>weird Rails guides,
-out-of-date blog posts</i></b> and many, many forums of <b><i>"why don't you use these
-three extra tools?"</i></b>
+You push a new
+version out. Things break. You <i><b>hope that nobody notices the downtime</b></i>.
 
-You set up tools, and tools, and tools. Some of them even worked, though
-nothing did what you really wanted.
+<i>That <b>DREAD</b> when you get ready to deploy, let alone fix a problem on the
+server...</i>
 
-And of course, <b>your app breaks on most deploys</b>. It seems like every time you push a new
-version out, things break and you <i><b>hope that nobody
-notices</b></i>.
+How do you find deploy bugs, server config bugs and production-only bugs?
 
-<i>That <b>DREAD</b> when you get ready to <b>hit "deploy"</b>...</i>
 
-## What If You Knew It Would Just Work?
 
-{% img right /images/science_is_impeccable_700.png 700 316 "First step they skipped: deployment." "Master says: Impossible!  My white lab coat just arrived and my science is impeccable!  Hit reload!" %}
+## What If Deploys Just Worked?
 
-What if your app just ran and everybody could use it?
+{% img pull-right /images/GoogleRubyDeployment.png 270 400 "A familiar sight" "What you see when you start Googling Ruby Deployment" %}
+
+What if deploying your app was easy and reliable? What if you never had
+<i>"I'll just fix this quick!"</i> downtime?
 
 What if it was easy to test new versions quietly, then push them
 out when they work?
-
-You could test your deployment ahead of time and fix mistakes
-<i>before</i> your users saw them &mdash; even deployment bugs.
-Even multiprocess bugs, bugs with Unicorn and bugs that only happen with
-RAILS_ENV=production.
 
 What if you could write a new app and have it <i>up and running the
 same day</i> and feel <i>confident that it worked?</i>
@@ -59,67 +55,56 @@ It will teach you:
   <li>Solid, simple monitoring for your app</li>
 </ul>
 
-You'll get the "OMG I need it NOW!" fast path with minimal theory, <b>plus</b> a
+You'll get the "OMG I need it NOW!" fast instructions with minimal theory, <b>plus</b> a
 slower path that teaches you what the tools do and why &mdash;
 deep knowledge for developers who like to know how everything ticks.
 
-(I wrote <a href="http://rebuilding-rails.com" target="_blank">Rebuilding Rails</a>,
- I'm all for "deep knowledge" and "how everything ticks".)
+### The Class Package
 
-## The Blazing Fast Package
+Get the class textbook and videos for only $99.99. You'll get free updates for life.
 
-(Not available yet. If you want to pay me more, I'll offer a package
- upgrade soon.)
+<div class="text-center">
+  <a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy Ruby Mad Science securely on Gumroad<br/>w/ 60-Day Guarantee</a>
+</div>
 
-<p class="text-muted">Want it all now, but don't want to learn a ton of theory?
-Buy the class, get the exact versions of everything you need, install them, copy the code into place.</p>
+<p class="small">You'll get a receipt automatically, or a
+  <a href="http://blog.gumroad.com/post/64055496293/your-receipt-is-in-the-bag-invoicing-for-buyers-and">standard Gumroad invoice</a>
+  if you ask. I'd love to help you <b>expense this</b> or <b>get a tax deduction</b>.)</p>
 
-<!--
-When and <i><b>only if you need it</b></i>, then you can read some troubleshooting guides.
+<span class="text-danger">PLEASE NOTE:</span> This is an early release of Ruby Mad Science. While that has good points, it means the <span class="lead text-danger">CLASS IS NOT DONE YET</span>.
+If that's a problem for you, please don't buy, or ask for a refund. Sign up for my mailing list to be notified when it's
+done.
 
-You'll get real working code and all future updates for free.
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Tell Me When This is Done, But Send Great Stuff NOW</h3>
+  </div>
+  <div class="panel-body">
+    {% include mailing_list_signup.html %}
+  </div>
+</div>
 
-Get your app working.
+## Get Exactly What You Want
 
-Get the class textbook, the videos, the quick-start "Fast Path" guide and my free mini-course on Ruby Concurrency,
-all for $349.99.
--->
-
-## The Class Package
-
-Don't need your deploy finished yesterday? Not sure you'll need the extras? Save money with the Class Package.
-You'll get the same class textbook
-and access to the same source code. But you'll have to download your own tools with the right versions.
-Don't worry, they're free online!
-
-Get the class textbook and introductory videos for only $79.99. Upgrade at any time if you need it.
-
-
-## Get What You Want
+{% img pull-right /images/mad_scientist_01.jpg 240 180 "Mad Scientists get what they want..." "A woman with a fuming flask, courtesy of San Jose Library" %}
 
 Try this out for 60 days or until the final version is done &mdash; whichever is longer.
 If this class isn't exactly what you want, email me and get a refund.
 
 It's that simple.
 
-You’ll have my personal email address.  I read every message you send.
+You'll have my personal email address.  I read every message you send.
 
-# Join Us Now
+## Join Now
 
-This ebook costs $50 -- for now.  It will get more expensive.  Later,
-you’ll probably have to pay some company for hosting (except the
-initial free EC2 time).
+The earlier you buy, the more feedback you can give. Let me know what
+you want! You'll receive the earliest chapters first and <b>forever-free updates</b> as
+they're finished or improved.
 
-There will also be interviews and supplemental material —
-extra information from people who build a lot of the tools you’ll be
-using.  If you buy now, you’ll get a nice discount on those things
-later, if you want it.  Or you can wait, and everything gets more
-expensive.
-
-The earlier you buy, the more say you get in the material as I write
-it.  As with Rebuilding Rails, the pre-orders get you only the early
-chapters, and more as I write them.  But I’ll fix errors and expand
-things my early readers ask for as I go along.  Want to be one of
+I’ll fix errors and expand sections
+for my early readers as I go along.  Want to be one of
 those early readers?
 
-{% img /images/how_product_dev_should_work_800_418.png 800 418 "I always wanted to be a mad scientist." "How Product Development Should Work: Like Mad Science" %}
+<p class="small text-muted">Graph paper background is courtesy of Wikimedia Commons and Bobarino (Graph-paper.svg)<br/>
+  Scientist pictures are courtesy of San Jose Library, via Flickr.
+</p>
