@@ -43,6 +43,10 @@ out when they work?
 What if you could write a new app and have it <i>up and running the
 same day</i> and feel <i>confident that it worked?</i>
 
+{% blockquote Patrick McKenzie https://appointmentreminder.org Owner and Rails Engineer at AppointmentReminder %}
+When you build this, I'll be your first buyer.
+{% endblockquote %}
+
 ## But... How?
 
 Ruby Mad Science is an opinionated Ruby and Rails deployment class.
@@ -55,9 +59,15 @@ It will teach you:
   <li>Solid, simple monitoring for your app</li>
 </ul>
 
-You'll get the "OMG I need it NOW!" fast instructions with minimal theory, <b>plus</b> a
+You'll get the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <b>plus</b> a
 slower path that teaches you what the tools do and why &mdash;
 deep knowledge for developers who like to know how everything ticks.
+
+{% blockquote Yehuda Katz, (about Rebuilding Rails) %}
+I saw your talk at Gogaruco. It was fun!
+
+Your methodology maps onto how I like to learn things: from the ground up from first principles.
+{% endblockquote %}
 
 ### The Class Package
 
@@ -94,6 +104,54 @@ If this class isn't exactly what you want, email me and get a refund.
 It's that simple.
 
 You'll have my personal email address.  I read every message you send.
+
+## Praise for Rebuilding Rails
+
+Rebuilding Rails has been chosen as the subject of a class at the University of Washington,
+several different Rails bootcamps and Satish Talim's RubyLearning.com class. It has been
+the subject of Ruby conference presentations by Guille Carlos and Nishant Modak,
+<a href="https://www.youtube.com/watch?v=Uh5MYvNXt0A" target="_blank">plus my own</a>.
+
+{% blockquote Satish Talim https://www.facebook.com/rubylearning/posts/10151644050623920 RubyLearning.com %}
+This is a must-have book for anyone seriously planning to work or working in Sinatra, Rails.
+{% endblockquote %}
+
+{% blockquote Eli Riter %}
+Okay, damn you, you win!  I'll buy the book: the exercises are just too
+good. [...] You write as though your audience has minimal knowledge
+and limitless intelligence.
+{% endblockquote %}
+
+{% blockquote David Baynes %}
+Thanks, Noah! Really jacked to read this highly recommended book by my teachers
+at University of Washington.
+{% endblockquote %}
+
+{% blockquote Kirk Quesnelle %}
+What drew my attention to your book was that [...] I'm the type of
+developer that likes to know how things tick at a very deep level.
+The guy who messed with Assembler but knew he didn't have to. I'm not a huge
+fan of magic when it comes to programming for the fact that when you get
+into trouble with code or find yourself in a complex edge case, or even a
+bug, knowing more about what's going on "behind the scenes" is very
+helpful.
+{% endblockquote %}
+
+{% blockquote Brian Cameron %}
+I found your book there a while back and finally over Christmas I've had
+some time to work through it. It's satisfying a whole load of curiosities
+that I had and I'm learning and clarifying a lot of things. In fact, I'm
+like a kid in a candy store. It's so nice to be spoon fed this info as
+it's a lot of work to dig it out all by oneself.
+
+It was the perfect Christmas present to myself ;-)
+
+Your flow and pedagogic style is just excellent, always dropping in some
+neat tricks along side the main topic.
+{% endblockquote %}
+
+
+{% img /images/goodreads_screenshot.png 500 218 "People liked Rebuilding Rails." "A screenshot of Rebuilding Rails on GoodReads.com" %}
 
 ## Join Now
 
