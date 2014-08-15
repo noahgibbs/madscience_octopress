@@ -1,24 +1,30 @@
 ---
 layout: narrow_page
-title: "Is Your Rails App on a Server Yet?"
+title: "Is Your Rails App Actually on a Server Yet?"
 comments: false
 sharing: false
 sidebar: false
 footer: true
 no_navbar: true
 ---
-Or are you trying to install three different tools, and hoping one of them helps?
+Are you just putting it off? Writing more features to avoid facing that next step?
 
-You tried. You read through <b><i>Rails guides,
-ancient blog posts</i></b> and many, many forums of
-<b><i>"just switch to my favorite tool!"</i></b>
+Or you put together a horrible one-off "special snowflake" server, and you hope like
+hell it <b>never goes down</b>. You can't build a staging server.
+
+{% imgcap right /images/deploy_tag_cloud.png 350 129 How Many of These Are Required? %}
+
+Or you're installing one more tool and hoping it helps. Please?
+
+You tried. You read through <i>Rails guides,
+ancient blog posts</i> and many, many forums of
+<b><i>"just rewrite everything in my favorite tool!"</i></b>
 
 Also, most of the blog posts are flat-out wrong. Capistrano 3, Puppet 3, Chef 11,
-they all <b>break backward compatibility. A lot.</b>
+they all <b>break backward compatibility. A lot.</b> If a blog post is old,
+it's wrong. And most of them aren't labeled, and don't say what version.
 
-{% imgcap right /images/deploy_tag_cloud.png 350 129 Everything you need to know? %}
-
-<b>Your deploy system mostly works... And then breaks.</b>
+<b>Or your deploy system mostly works... And then breaks.</b>
 
 You push a new
 version out. Things break. You <i><b>hope that nobody notices the downtime</b></i>.
@@ -50,12 +56,13 @@ When you build this, I'll be your first buyer.
 ## But... How?
 
 Ruby Mad Science is an opinionated Ruby and Rails deployment class.
-It will teach you:
+You get:
 
 <ul>
-  <li>Which tools to use, with full code</li>
-  <li>How to set up a development, staging and production environment</li>
-  <li>Repeatable deploy tool setup - so your deploy code still works in six months</li>
+  <li>Tools that install <b>everything you need</b> locally. Just <b>one</b> download.</li>
+  <li>A full development environment set up for you.</li>
+  <li>A sample app deployed to a virtual machine, then to production.</li>
+  <li>Simple instructions to drop your own app in, even if it needs custom libraries. Or servers.</li>
   <li>Solid, simple monitoring for your app</li>
 </ul>
 
@@ -63,31 +70,43 @@ You'll get the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <
 slower path that teaches you what the tools do and why &mdash;
 deep knowledge for developers who like to know how everything ticks.
 
-{% blockquote Yehuda Katz, (about Rebuilding Rails) %}
+{% blockquote Yehuda Katz, (about <a href="http://rebuilding-rails.com">Rebuilding Rails</a>) %}
 I saw your talk at Gogaruco. It was fun!
 
 Your methodology maps onto how I like to learn things: from the ground up from first principles.
 {% endblockquote %}
 
+### The Awesome Package
+
+Skip this for now. There will be a huge package later with video interviews and all the trimmings.
+
+When it exists, you can upgrade to it freely at any time without penalty. It will cost much, much
+less than hiring a contractor to set up your deployment, or hiring a full-time DevOps guy.
+
+For now, skip down to "the Class Package" for individual developers paying for their own.
+
 ### The Class Package
 
-Get the class textbook and videos for only $99.99. You'll get free updates for life.
+Get the class text and videos for only $99.99. You'll get free updates for life.
 
 <div class="text-center">
-  <a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy Ruby Mad Science securely on Gumroad<br/>w/ 60-Day Guarantee</a>
+  <a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy Ruby Mad Science (Beta) securely on Gumroad<br/>w/ 60-Day Guarantee</a>
 </div>
 
 <p class="small">You'll get a receipt automatically, or a
   <a href="http://blog.gumroad.com/post/64055496293/your-receipt-is-in-the-bag-invoicing-for-buyers-and">standard Gumroad invoice</a>
   if you ask. I'd love to help you <b>expense this</b> or <b>get a tax deduction</b>.)</p>
 
-<span class="text-danger">PLEASE NOTE:</span> This is an early release of Ruby Mad Science. While that has good points, it means the <span class="lead text-danger">CLASS IS NOT DONE YET</span>.
-If that's a problem for you, please don't buy, or ask for a refund. Sign up for my mailing list to be notified when it's
-done.
+<span class="text-danger">PLEASE NOTE:</span> I'm really, really looking for <b>beta testers</b>.
+Even the prototype of this software is far better than what you've had to deal with. But
+I want it <i>perfect</i> for my audience. You can help me <b>and</b> get started with the
+best deployment software in the world before anybody else gets it. How cool is that? You'll
+get more of my time and attention for your issues -- a $200/hr value, yours free for beta
+testing. And of course, the full no-questions-asked money-back guarantee applies in every case, yours included.
 
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title">Tell Me When This is Done, But Send Great Stuff NOW</h3>
+    <h3 class="panel-title">Tell Me When This is Done</h3>
   </div>
   <div class="panel-body">
     {% include mailing_list_signup.html %}
@@ -105,7 +124,7 @@ It's that simple.
 
 You'll have my personal email address.  I read every message you send.
 
-## Praise for Rebuilding Rails
+## Praise for Rebuilding Rails by Noah Gibbs
 
 Rebuilding Rails has been chosen as the subject of a class at the University of Washington,
 several different Rails bootcamps and Satish Talim's RubyLearning.com class. It has been

@@ -16,5 +16,13 @@ body article img:not(.no-border) {
 
 .buy-me-button {
   margin-top: 20px;
+  padding-top: 30px;
   margin-bottom: 20px;
+  padding-bottom: 30px;
+  background-color: #FFA500;
+  color: #004000;
+}
+
+b {
+  color: #00C000;
 }
