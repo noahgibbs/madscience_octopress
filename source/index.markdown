@@ -1,6 +1,6 @@
 ---
 layout: narrow_page
-title: "Is Your Rails App Actually on a Server Yet?"
+title: "Is Your Rails App on a Server Yet?"
 comments: false
 sharing: false
 sidebar: false
