@@ -4,8 +4,11 @@ body {
 
 .page-content {
   margin-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   border: 2px solid #cceeee;
   background-color: #ffffff;
+  line-height: 225%;
 }
 
 body article img:not(.no-border) {

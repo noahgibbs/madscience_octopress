@@ -55,15 +55,19 @@ When you build this, I'll be your first buyer.
 
 ## But... How?
 
-Ruby Mad Science is an opinionated Ruby and Rails deployment class.
+Ruby Mad Science is an opinionated application deployment class.
+It goes from "only on my machine" to "on the Internet and
+anybody can use it."
+
 You get:
 
 <ul>
   <li>Tools that install <b>everything you need</b> locally. Just <b>one</b> download.</li>
   <li>A full development environment set up for you.</li>
-  <li>A sample app deployed to a virtual machine, then to production.</li>
+  <li>Your application deployed to a virtual machine, then to production.</li>
   <li>Simple instructions to drop your own app in, even if it needs custom libraries. Or servers.</li>
   <li>Solid, simple monitoring for your app</li>
+  <li>A pain-free initial process, then troubleshooting and customization when you want.</li>
 </ul>
 
 You'll get the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <b>plus</b> a
@@ -76,33 +80,75 @@ I saw your talk at Gogaruco. It was fun!
 Your methodology maps onto how I like to learn things: from the ground up from first principles.
 {% endblockquote %}
 
-### The Awesome Package
+### The Amazing Package
 
-Skip this for now. There will be a huge package later with video interviews and all the trimmings.
+You'll get everything. The class. The code. Free upgrades for life.
+All content related to this class, current or future, you will have
+full access to.
 
-When it exists, you can upgrade to it freely at any time without penalty. It will cost much, much
-less than hiring a contractor to set up your deployment, or hiring a full-time DevOps guy.
+And you'll have up to 10 hours of my time to help you
+through. You can use it at any time in the 12 calendar months
+following purchase &mdash; longer if you ask me for an extension.
 
-For now, skip down to "the Class Package" for individual developers paying for their own.
+This is the "concierge service" package. I will work very hard to make you
+happy and get your Ruby-Mad-Science-style deployment where it should be.
+
+Yet it costs less than hiring a contractor to set up your
+deployment, and much less than hiring a full-time DevOps guy.
+
+Buy <s>now</s>later for: $1999
+
+<div class="text-center">
+  <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
+</div>
+
+### The Professional Package
+
+You'll receive the code and the class materials, including every video
+tutorial and interview (full details TBA.) You'll receive the code,
+licensed for commercial and non-commercial use.
+
+For this and every package, I'll work hard to satisfy you and refund your money
+promptly if I can't.
+
+This course costs the equivalent of only 7 hours of fully-loaded
+developer time &mdash or four hours for a DevOps freelancer capable of doing this right.
+
+Buy <s>now</s>later for: $349
+
+<div class="text-center">
+  <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
+</div>
 
 ### The Class Package
 
-Get the class text and videos for only $99.99. You'll get free updates for life.
+Get the class text and selected videos for only $99. You'll get free updates for life.
+
+You'll also get the code, for non-commercial use only.
+
+This software will save you many hours of (expensive) developer time.
+
+But don't buy yet! We're still getting a pilot class together! If you want into the pilot class,
+please subscribe to the mailing list below.
+
+Buy <s>now</s>later for: $99
 
 <div class="text-center">
-  <a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy Ruby Mad Science (Beta) securely on Gumroad<br/>w/ 60-Day Guarantee</a>
+  <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
 </div>
 
-<p class="small">You'll get a receipt automatically, or a
-  <a href="http://blog.gumroad.com/post/64055496293/your-receipt-is-in-the-bag-invoicing-for-buyers-and">standard Gumroad invoice</a>
-  if you ask. I'd love to help you <b>expense this</b> or <b>get a tax deduction</b>.)</p>
+## The Pilot
 
-<span class="text-danger">PLEASE NOTE:</span> I'm really, really looking for <b>beta testers</b>.
-Even the prototype of this software is far better than what you've had to deal with. But
-I want it <i>perfect</i> for my audience. You can help me <b>and</b> get started with the
-best deployment software in the world before anybody else gets it. How cool is that? You'll
-get more of my time and attention for your issues -- a $200/hr value, yours free for beta
-testing. And of course, the full no-questions-asked money-back guarantee applies in every case, yours included.
+The class isn't available for general purchase yet. But if you'd like to join my pilot class,
+you'll get:
+
+* All the content forever, like the most expensive package
+* Personalized help and attention, like the most expensive package
+* The mid-tier price ($349)
+* The most possible influence on the final content of the class
+* Some bumps in the road as I sort things out
+
+Interested? Join my list below.
 
 <div class="panel panel-primary">
   <div class="panel-heading">
@@ -185,3 +231,15 @@ those early readers?
 <p class="small text-muted">Graph paper background is courtesy of Wikimedia Commons and Bobarino (Graph-paper.svg)<br/>
   Scientist pictures are courtesy of San Jose Library, via Flickr.
 </p>
+
+
+<!-- <div class="text-center"><a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy Ruby Mad Science (Beta) securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>-->
+
+<!-- <p class="small">You'll get a receipt automatically, or a <a href="http://blog.gumroad.com/post/64055496293/your-receipt-is-in-the-bag-invoicing-for-buyers-and">standard Gumroad invoice</a> if you ask. I'd love to help you <b>expense this</b> or <b>get a tax deduction</b>.)</p>-->
+
+<!-- <span class="text-danger">PLEASE NOTE:</span> I'm really, really looking for <b>beta testers</b>.
+Even the prototype of this software is far better than what you've had to deal with. But
+I want it <i>perfect</i> for my audience. You can help me <b>and</b> get started with the
+best deployment software in the world before anybody else gets it. How cool is that? You'll
+get more of my time and attention for your issues -- a $200/hr value, yours free for beta
+testing. And of course, the full no-questions-asked money-back guarantee applies in every case, yours included. -->
