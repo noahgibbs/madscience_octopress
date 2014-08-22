@@ -129,7 +129,8 @@ You'll also get the code, for non-commercial use only.
 This software will save you many hours of (expensive) developer time.
 
 But don't buy yet! We're still getting a pilot class together! If you want into the pilot class,
-please subscribe to the mailing list below.
+please subscribe to the mailing list below &mdash; I'll look for pilot class members from
+that list. Thanks!
 
 Buy <s>now</s>later for: $99
 
@@ -148,7 +149,8 @@ you'll get:
 * The most possible influence on the final content of the class
 * Some bumps in the road as I sort things out
 
-Interested? Join my list below.
+Interested? Join my list below. You'll be the first to see when applications open for
+the pilot class.
 
 <div class="panel panel-primary">
   <div class="panel-heading">
