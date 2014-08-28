@@ -149,12 +149,15 @@ you'll get:
 * The most possible influence on the final content of the class
 * Some bumps in the road as I sort things out
 
-Interested? Join my list below. You'll be the first to see when applications open for
-the pilot class.
+<div class="text-center">
+  <a href="http://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Join the Pilot Program</a>
+</div>
+
+Interested? Join my Ruby Deployment list below. You'll see what's going on with RubyMadScience as it happens!
 
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title">Tell Me When This is Done</h3>
+    <h3 class="panel-title">Email Me Great Stuff About Ruby Deployment</h3>
   </div>
   <div class="panel-body">
     {% include mailing_list_signup.html %}
