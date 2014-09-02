@@ -112,7 +112,7 @@ For this and every package, I'll work hard to satisfy you and refund your money
 promptly if I can't.
 
 This course costs the equivalent of only 7 hours of fully-loaded
-developer time &mdash or four hours for a DevOps freelancer capable of doing this right.
+developer time &mdash; or four hours for a DevOps freelancer capable of doing this right.
 
 Buy <s>now</s>later for: $349
 
