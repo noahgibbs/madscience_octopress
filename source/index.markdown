@@ -68,6 +68,8 @@ You get:
   <li>Simple instructions to drop your own app in, even if it needs custom libraries. Or servers.</li>
   <li>Solid, simple monitoring for your app</li>
   <li>A pain-free initial process, then troubleshooting and customization when you want.</li>
+  <li>Documentation to take you from &quot;I know Ruby&quot; to &quot;I can use these tools.&quot;</li>
+  <li>Pointers on where next, if you need to get to mastery with the tools; many of you will never need it.</li>
 </ul>
 
 You'll get the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <b>plus</b> a
