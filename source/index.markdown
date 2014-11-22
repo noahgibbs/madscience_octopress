@@ -1,20 +1,21 @@
 ---
 layout: narrow_page
-title: "Is Your Rails App on a Server Yet?"
+title: "Are Your Rails Apps on a Server Yet?"
 comments: false
 sharing: false
 sidebar: false
 footer: true
 no_navbar: true
 ---
-Are you just putting it off? Writing more features to avoid facing that next step?
+Just putting it off? Writing more features &mdash; or more apps &mdash; to avoid that next step?
 
 Or you put together a horrible one-off "special snowflake" server, and you hope like
-hell it <b>never goes down</b>. You can't build a staging server.
+hell it <b>never goes down</b>. You tried building a test server and stopped using it after a week, because
+it has a whole different set of weird bugs.
 
 {% imgcap right /images/deploy_tag_cloud.png 350 129 How Many of These Are Required? %}
 
-Or you're installing one more tool and hoping it helps. Please?
+Once in awhile you install one more tool and hope it helps. Some are fun, but none really fix the problem, right?
 
 You tried. You read through <i>Rails guides,
 ancient blog posts</i> and many, many forums of
@@ -26,22 +27,16 @@ it's wrong. And most of them aren't labeled, and don't say what version.
 
 <b>Or your deploy system mostly works... And then breaks.</b>
 
-You push a new
-version out. Things break. You <i><b>hope that nobody notices the downtime</b></i>.
+You push a new version out. Things break. Sometimes they stay broken for days. Or weeks.
 
-<i>That <b>DREAD</b> when you get ready to deploy, let alone fix a problem on the
-server...</i>
+Want to get rid of that <b>DREAD</b> of deployment?
 
-How do you find deploy bugs, server config bugs and production-only bugs?
-
-
-
-## What If Deploys Just Worked?
+## What If Deploys Felt Good? And Just Worked?
 
 {% img pull-right /images/GoogleRubyDeployment.png 270 400 "A familiar sight" "What you see when you start Googling Ruby Deployment" %}
 
-What if deploying your app was easy and reliable? What if you never had
-<i>"I'll just fix this quick!"</i> downtime?
+What if deploying all your apps was easy and reliable? What if you just added the
+app to a file, ran tests and then pushed to production, all in ten minutes?
 
 What if it was easy to test new versions quietly, then push them
 out when they work?
@@ -49,27 +44,30 @@ out when they work?
 What if you could write a new app and have it <i>up and running the
 same day</i> and feel <i>confident that it worked?</i>
 
+And what if you could join a group of people who knew deployment and could help you with
+your problems with it?
+
 {% blockquote Patrick McKenzie https://appointmentreminder.org Owner and Rails Engineer at AppointmentReminder %}
 When you build this, I'll be your first buyer.
 {% endblockquote %}
 
 ## But... How?
 
-Ruby Mad Science is an opinionated application deployment class.
-It goes from "only on my machine" to "on the Internet and
-anybody can use it."
+I'd like you to use my class and software.
+The software takes your app from "only on my machine" to "on the Internet and
+anybody can use it." It'll take you an hour the first time you put a simple
+app online.
 
 You get:
 
 <ul>
-  <li>Tools that install <b>everything you need</b> locally. Just <b>one</b> download.</li>
-  <li>A full development environment set up for you.</li>
-  <li>Your application deployed to a virtual machine, then to production.</li>
-  <li>Simple instructions to drop your own app in, even if it needs custom libraries. Or servers.</li>
+  <li>Your application deployed to a virtual machine, then to production. Two-command deploys.</li>
+  <li>Tools that install <b>everything you need</b> to a local VM.</li>
+  <li>Simple instructions to drop your own app in, even if it needs custom libraries or daemons.</li>
   <li>Solid, simple monitoring for your app</li>
   <li>A pain-free initial process, then troubleshooting and customization when you want.</li>
   <li>Documentation to take you from &quot;I know Ruby&quot; to &quot;I can use these tools.&quot;</li>
-  <li>Pointers on where next, if you need to get to mastery with the tools; many of you will never need it.</li>
+  <li>Pointers on where next, if you need to get to mastery with the tools; most people will never need it.</li>
 </ul>
 
 You'll get the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <b>plus</b> a
@@ -82,23 +80,37 @@ I saw your talk at Gogaruco. It was fun!
 Your methodology maps onto how I like to learn things: from the ground up from first principles.
 {% endblockquote %}
 
-### The Amazing Package
+### What You Get
 
-You'll get everything. The class. The code. Free upgrades for life.
-All content related to this class, current or future, you will have
-full access to.
+Everybody who buys gets:
 
-And you'll have up to 10 hours of my time to help you
-through. You can use it at any time in the 12 calendar months
-following purchase &mdash; longer if you ask me for an extension.
+* The software - you'll get access through a GitHub private repository
+* "How-to" videos matched with chapters, so you can jump right into deploying your application
+* Seven mini-ebook chapters covering Ruby deployment in the right amount of depth, without being a "do it yourself" tools
+  tutorial (<a href="table_of_contents.html">Table of Contents</a>)
+* The Troubleshooting Guide giving step-by-step error messages and quick fixes for common problems.
+* Free updates for life!
 
-This is the "concierge service" package. I will work very hard to make you
-happy and get your Ruby-Mad-Science-style deployment where it should be.
+If you buy the Professional or Concierge package, you also get:
 
-Yet it costs less than hiring a contractor to set up your
-deployment, and much less than hiring a full-time DevOps guy.
+* Video tech talks, such as the one on Ruby HTTP Application Architecture, covering caching, reverse proxies,
+  application servers, multi-server setups...
+* Video interviews with Ruby deployment experts &mdash; like Al Tobey of DataStax
+* An in-depth Ruby Concurrency Guide with everything you need to know about Ruby processes and threads
+* The Ruby App Server Guide, for choosing your Ruby App Server
 
-Buy <s>now</s>later for: $1999
+(You can also email me to upgrade at any time.)
+
+### The Developer Package
+
+Want to deploy your projects quickly and painlessly?
+
+Get the class ebook, the Troubleshooting Guide and the "how-to" videos for only $99. You'll get free updates for life.
+
+You'll also get the software, for non-commercial use only. Use it on your own projects, but not for your employer or to
+sell a product.
+
+Buy now for: <s>$99</s>$80
 
 <div class="text-center">
   <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
@@ -106,56 +118,55 @@ Buy <s>now</s>later for: $1999
 
 ### The Professional Package
 
-You'll receive the code and the class materials, including every video
-tutorial and interview (full details TBA.) You'll receive the code,
-licensed for commercial and non-commercial use.
+You'll the software, Troubleshooting Guide, Concurrency and App Server Guides and the ebooks.
+You'll get the "how-to" videos, plus exclusive tech talks and interviews.
+
+You can also use the software commercially - deploy software you charge money for, or a site
+that sells a product.
 
 For this and every package, I'll work hard to satisfy you and refund your money
 promptly if I can't.
 
-This course costs the equivalent of only 7 hours of fully-loaded
+This course costs less than 7 hours of fully-loaded
 developer time &mdash; or four hours for a DevOps freelancer capable of doing this right.
 
-Buy <s>now</s>later for: $349
+Buy <s>now</s>later for: <s>$349</s>$300
 
 <div class="text-center">
   <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
 </div>
 
-### The Class Package
+### The Concierge Package
 
-Get the class text and selected videos for only $99. You'll get free updates for life.
+With the Concierge Package, you'll get everything. The ebooks, videos and software. Free upgrades for life.
+All content related to this class, current or future, you will have full access to.
 
-You'll also get the code, for non-commercial use only.
+<b>Plus</b> we'll schedule up to 5 hours of my time to help you
+through. Some recommended uses:
 
-This software will save you many hours of (expensive) developer time.
+<ul>
+  <li>Skype calls to answer your personal Ruby and/or deployment questions one-on-one</li>
+  <li>Recording a personal, unedited video for you on a deployment-related topic of your choice</li>
+  <li>Writing customized Chef cookbooks, Capistrano deploy code or Ruby for your specific setup</li>
+</ul>
 
-But don't buy yet! We're still getting a pilot class together! If you want into the pilot class,
-please subscribe to the mailing list below &mdash; I'll look for pilot class members from
-that list. Thanks!
+Pick any combination up to a total of 5 hours, for up to 12 months after
+ordering. Artifacts like code, video or Skype recordings may be used later in
+class materials, subject to your consent.
 
-Buy <s>now</s>later for: $99
+Basically, I will work very hard to make you
+happy and get your deployment where it should be, or coach you on the skills you want help with.
 
-<div class="text-center">
-  <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
-</div>
+Buy now for: <s>$1199</s>$1000
 
-## The Pilot
+<div class="text-center"><a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy the Concierge Package securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>-->
 
-The class isn't available for general purchase yet. But if you'd like to join my pilot class,
-you'll get:
+(Want to redistribute the software or buy a site license, not just ship a product based on it? Please email me
+ at the.codefolio.guy@gmail.com.)
 
-* All the content forever, like the most expensive package
-* Personalized help and attention, like the most expensive package
-* The mid-tier price ($349)
-* The most possible influence on the final content of the class
-* Some bumps in the road as I sort things out
+## Get Notified
 
-<div class="text-center">
-  <a href="http://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Join the Pilot Program</a>
-</div>
-
-Interested? Join my Ruby Deployment list below. You'll see what's going on with RubyMadScience as it happens!
+Interested? Join my Ruby Deployment list below. You'll see what's going on with the class as it happens!
 
 <div class="panel panel-primary">
   <div class="panel-heading">
