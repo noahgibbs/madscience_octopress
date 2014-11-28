@@ -114,11 +114,6 @@ Buy now for: <s>$99</s>$79
 
 <div class="text-center"><a href="https://gum.co/rdiah-dev" class="btn btn-lg btn-warning buy-me-button">Buy the Developer Package securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>
 
-
-<div class="text-center">
-  <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
-</div>
-
 ### The Professional Package
 
 You'll the software, Troubleshooting Guide, Concurrency and App Server Guides and the ebooks.
