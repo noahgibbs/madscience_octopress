@@ -1,11 +1,13 @@
 ---
 layout: page
-title: "table of contents"
+title: "Table of Contents for Rails Deploy In An Hour"
 date: 2014-11-28 11:02
 comments: true
 sharing: true
 footer: true
 ---
+<a href="http://rails-deploy-in-an-hour.com">(Back to main page)</a>
+
 ## What Are These Tools?
 
   * Chef
