@@ -110,7 +110,10 @@ Get the class ebook, the Troubleshooting Guide and the "how-to" videos for only 
 You'll also get the software, for non-commercial use only. Use it on your own projects, but not for your employer or to
 sell a product.
 
-Buy now for: <s>$99</s>$80
+Buy now for: <s>$99</s>$79
+
+<div class="text-center"><a href="https://gum.co/rdiah-dev" class="btn btn-lg btn-warning buy-me-button">Buy the Developer Package securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>
+
 
 <div class="text-center">
   <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
@@ -130,11 +133,9 @@ promptly if I can't.
 This course costs less than 7 hours of fully-loaded
 developer time &mdash; or four hours for a DevOps freelancer capable of doing this right.
 
-Buy <s>now</s>later for: <s>$349</s>$300
+Buy now for: <s>$349</s>$299
 
-<div class="text-center">
-  <a href="#" class="btn btn-lg btn-warning buy-me-button" disabled="disabled">Can't buy yet!</a>
-</div>
+<div class="text-center"><a href="https://gum.co/rdiah-pro" class="btn btn-lg btn-warning buy-me-button">Buy the Professional Package securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>
 
 ### The Concierge Package
 
@@ -157,9 +158,9 @@ class materials, subject to your consent.
 Basically, I will work very hard to make you
 happy and get your deployment where it should be, or coach you on the skills you want help with.
 
-Buy now for: <s>$1199</s>$1000
+Buy now for: <s>$1199</s>$999
 
-<div class="text-center"><a href="https://gum.co/rubymadscience" class="btn btn-lg btn-warning buy-me-button">Buy the Concierge Package securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>-->
+<div class="text-center"><a href="https://gum.co/rdiah-con" class="btn btn-lg btn-warning buy-me-button">Buy the Concierge Package securely on Gumroad<br/>w/ 60-Day Guarantee</a></div>
 
 (Want to redistribute the software or buy a site license, not just ship a product based on it? Please email me
  at the.codefolio.guy@gmail.com.)
