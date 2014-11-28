@@ -8,6 +8,8 @@ footer: true
 ---
 <a href="http://rails-deploy-in-an-hour.com">(Back to main page)</a>
 
+NOTE: Table of Contents IS NOT FINAL YET!
+
 ## What Are These Tools?
 
   * Chef
