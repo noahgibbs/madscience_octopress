@@ -87,7 +87,7 @@ Everybody who buys gets:
 * The software - you'll get access through a GitHub private repository
 * "How-to" videos matched with chapters, so you can jump right into deploying your application
 * Seven mini-ebook chapters covering Ruby deployment in the right amount of depth, without being a "do it yourself" tools
-  tutorial (<a href="table_of_contents.html">Table of Contents</a>)
+  tutorial (<a href="table-of-contents">Table of Contents</a>)
 * The Troubleshooting Guide giving step-by-step error messages and quick fixes for common problems.
 * Free updates for life!
 
