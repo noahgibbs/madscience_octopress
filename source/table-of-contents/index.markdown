@@ -1,3 +1,11 @@
+---
+layout: page
+title: "table of contents"
+date: 2014-11-28 11:02
+comments: true
+sharing: true
+footer: true
+---
 ## What Are These Tools?
 
   * Chef
