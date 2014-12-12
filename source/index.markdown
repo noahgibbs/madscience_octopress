@@ -97,7 +97,6 @@ If you buy the Professional or Concierge package, you also get:
   application servers, multi-server setups...
 * Video interviews with Ruby deployment experts &mdash; like Al Tobey of DataStax
 * An in-depth Ruby Concurrency Guide with everything you need to know about Ruby processes and threads
-* The Ruby App Server Guide, for choosing your Ruby App Server
 
 (You can also email me to upgrade at any time.)
 
@@ -116,7 +115,7 @@ Buy now for: <s>$99</s>$79
 
 ### The Professional Package
 
-You'll the software, Troubleshooting Guide, Concurrency and App Server Guides and the ebooks.
+You'll get the software, Troubleshooting Guide, Concurrency Guide and the ebooks.
 You'll get the "how-to" videos, plus exclusive tech talks and interviews.
 
 You can also use the software commercially - deploy software you charge money for, or a site
