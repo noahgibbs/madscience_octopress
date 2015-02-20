@@ -7,45 +7,62 @@ sidebar: false
 footer: true
 no_navbar: true
 ---
-Just putting it off? Writing more features &mdash; or more apps &mdash; to avoid that next step?
+"I Just Want My Rails App Online. Why Is That So Hard?"
 
-Or you put together a horrible one-off "special snowflake" server, and you hope like
-hell it <b>never goes down</b>. You tried building a test server and stopped using it after a week, because
-it has a whole different set of weird bugs.
+Online tutorials that are just slightly out of date. "How to set up a server"
+tutorials that conflict with each other, just a little. Security tutorials to
+let you know that the sky is falling... And they're also out of date.
+
+You have your Rails app running locally. <a target="#blank"
+href="http://codefol.io/posts/when-should-you-not-use-heroku">Heroku won't cut
+it.</a> So you're setting up a server. Why is it nothing but pain?
 
 {% imgcap right /images/deploy_tag_cloud.png 350 129 How Many of These Are Required? %}
 
-Once in awhile you install one more tool and hope it helps. Some are fun, but none really fix the problem, right?
+You can put together a horrible one-off "special snowflake" server. But then
+hope like hell it <b>never goes down</b>. You tried building a test server and
+stopped using it after a week, because it has a whole different set of weird
+bugs than production.
+
+You're saving the URLs of all those tutorials in a text file, right? Or cutting and pasting all the commands in. <b>Ugh.</b>
+
+You could use the tool of the day, of course. Or four or five of them,
+slightly overlapping. Ugh.
+
+Should you install one more tool and hope it helps? Somehow they never quite fix the problem, do they?
 
 You tried. You read through <i>Rails guides,
 ancient blog posts</i> and many, many forums of
 <b><i>"just rewrite everything in my favorite tool!"</i></b>
 
-Also, most of the blog posts are flat-out wrong. Capistrano 3, Puppet 3, Chef 11,
-they all <b>break backward compatibility. A lot.</b> If a blog post is old,
+Capistrano 3, Puppet 3, Chef 11,
+they all <b>break backward compatibility.</b> If a blog post is old,
 it's wrong. And most of them aren't labeled, and don't say what version.
 
 <b>Or your deploy system mostly works... And then breaks.</b>
 
 You push a new version out. Things break. Sometimes they stay broken for days. Or weeks.
 
-Want to get rid of that <b>DREAD</b> of deployment?
+Isn't there a better way? Why is this so awful? (Or so expensive?)
 
 ## What If Deploys Felt Good? And Just Worked?
 
 {% img pull-right /images/GoogleRubyDeployment.png 270 400 "A familiar sight" "What you see when you start Googling Ruby Deployment" %}
 
-What if deploying all your apps was easy and reliable? What if you just added the
-app to a file, ran tests and then pushed to production, all in ten minutes?
+What if just a handful of commands would get you from "runs on my machine" to
+"built into a Vagrant VM?" Or even "running on real hosting?" What if you
+could redeploy in just one command?
 
-What if it was easy to test new versions quietly, then push them
-out when they work?
+What if you could use all the tools you're supposed to (Chef, Capistrano,
+Librarian, NGinX, RVM, etc.) but still get a perfect initial setup? What if
+you could still Google the answers because you're using common, open-source
+tools, but not have to set them all up?
+
+What if deploying all your apps was easy and reliable? What if you just added the
+app to a file, ran tests and then pushed to production, all in half an hour?
 
 What if you could write a new app and have it <i>up and running the
-same day</i> and feel <i>confident that it worked?</i>
-
-And what if you could join a group of people who knew deployment and could help you with
-your problems with it?
+same day</i> and feel <i>confident that it worked?</i> With staging and production, virtual and real, all configured exactly the same?
 
 {% blockquote Patrick McKenzie https://appointmentreminder.org Owner and Rails Engineer at AppointmentReminder %}
 When you build this, I'll be your first buyer.
@@ -53,26 +70,30 @@ When you build this, I'll be your first buyer.
 
 ## But... How?
 
-I'd like you to use my class and software.
-The software takes your app from "only on my machine" to "on the Internet and
-anybody can use it." It'll take you an hour the first time you put a simple
-app online.
+I'd like you to use my class and software.  The software takes your app from
+"only on my machine" to "on the Internet and anybody can use it." It'll take
+you less than an hour the first time you put a simple app online. Later
+deploys will be quicker than that -- more like half an hour, and can be run in
+a single command.
+
+Leverage all the open-source software you know you should be using, but get
+the push-button convenience of a commercial solution.
 
 You get:
 
 <ul>
-  <li>Your application deployed to a virtual machine, then to production. Two-command deploys.</li>
+  <li>Your application deployed to a virtual machine, then to production.</li>
   <li>Tools that install <b>everything you need</b> to a local VM.</li>
   <li>Simple instructions to drop your own app in, even if it needs custom libraries or daemons.</li>
-  <li>Solid, simple monitoring for your app</li>
+  <li>Examples of non-default configurations including Postgres, Redis, Memcache and more.</li>
+  <li>Use standard Chef cookbooks and Capistrano tasks</li>
   <li>A pain-free initial process, then troubleshooting and customization when you want.</li>
-  <li>Documentation to take you from &quot;I know Ruby&quot; to &quot;I can use these tools.&quot;</li>
-  <li>Pointers on where next, if you need to get to mastery with the tools; most people will never need it.</li>
+  <li>Documentation to take you from &quot;I know Rails and can get along in the shell&quot; to &quot;I can use these tools.&quot;</li>
+  <li>Pointers on where next, if you need more mastery of these standard open-source tools.</li>
 </ul>
 
 You'll get the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <b>plus</b> a
-slower path that teaches you what the tools do and why &mdash;
-deep knowledge for developers who like to know how everything ticks.
+slower path that teaches you what the tools do and why. Start quickly, learn more deeply when you need to.
 
 {% blockquote Yehuda Katz, (about <a href="http://rebuilding-rails.com">Rebuilding Rails</a>) %}
 I saw your talk at Gogaruco. It was fun!
@@ -84,9 +105,8 @@ Your methodology maps onto how I like to learn things: from the ground up from f
 
 Everybody who buys gets:
 
-* The software - you'll get access through a GitHub private repository
 * "How-to" videos matched with chapters, so you can jump right into deploying your application
-* Seven mini-ebook chapters covering Ruby deployment in the right amount of depth, without being a "do it yourself" tools
+* The book of Ruby deployment in the right amount of depth. NOT a "do it yourself" tools
   tutorial (<a href="table-of-contents">Table of Contents</a>)
 * The Troubleshooting Guide giving step-by-step error messages and quick fixes for common problems.
 * Free updates for life!
@@ -95,8 +115,9 @@ If you buy the Professional or Concierge package, you also get:
 
 * Video tech talks, such as the one on Ruby HTTP Application Architecture, covering caching, reverse proxies,
   application servers, multi-server setups...
-* Video interviews with Ruby deployment experts &mdash; like Al Tobey of DataStax
-* An in-depth Ruby Concurrency Guide with everything you need to know about Ruby processes and threads
+* Video interviews with Ruby and/or deployment experts like Patrick McKenzie, Chris Fidao and Al Tobey
+* A text mini-interview with Eric Wong, maintainer of the Unicorn app server
+* Additional text and video guides on deployment-relevant aspects of Ruby, such as deployment
 
 (You can also email me to upgrade at any time.)
 
@@ -106,8 +127,7 @@ Want to deploy your projects quickly and painlessly?
 
 Get the class ebook, the Troubleshooting Guide and the "how-to" videos for only $99. You'll get free updates for life.
 
-You'll also get the software, for non-commercial use only. Use it on your own projects, but not for your employer or to
-sell a product.
+You'll also get full use of the software.
 
 Buy now for: <s>$99</s>$79
 
@@ -117,9 +137,6 @@ Buy now for: <s>$99</s>$79
 
 You'll get the software, Troubleshooting Guide, Concurrency Guide and the ebooks.
 You'll get the "how-to" videos, plus exclusive tech talks and interviews.
-
-You can also use the software commercially - deploy software you charge money for, or a site
-that sells a product.
 
 For this and every package, I'll work hard to satisfy you and refund your money
 promptly if I can't.
@@ -141,13 +158,12 @@ through. Some recommended uses:
 
 <ul>
   <li>Skype calls to answer your personal Ruby and/or deployment questions one-on-one</li>
+  <li>Writing or debugging customized Chef cookbooks, Capistrano deploy code or Ruby for your specific setup</li>
   <li>Recording a personal, unedited video for you on a deployment-related topic of your choice</li>
-  <li>Writing customized Chef cookbooks, Capistrano deploy code or Ruby for your specific setup</li>
 </ul>
 
 Pick any combination up to a total of 5 hours, for up to 12 months after
-ordering. Artifacts like code, video or Skype recordings may be used later in
-class materials, subject to your consent.
+ordering. Use the code, video or Skype recordings however you want -- you paid for them!
 
 Basically, I will work very hard to make you
 happy and get your deployment where it should be, or coach you on the skills you want help with.
