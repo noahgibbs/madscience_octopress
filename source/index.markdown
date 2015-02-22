@@ -62,7 +62,9 @@ you could still Google the answers because you're using common, open-source
 tools, but not spend many hours setting them all up?
 
 Imagine just adding the apps to a file and half an hour later you had a new,
-clean server with everything you needed.
+clean server with everything you needed. (Why half an hour? Because downloading
+a new fresh copy of Chef, Ubuntu, NGinX and everything else takes time. Later deploys can
+be faster because you already did that.)
 
 Imagine <b>every new app you write</b>, from now on, was on a <b>real
 server</b> the same day and you could just forward somebody the URL, inside
@@ -145,8 +147,9 @@ You'll get the "how-to" videos, plus exclusive tech talks and interviews.
 For this and every package, I'll work hard to satisfy you and refund your money
 promptly if I can't.
 
-This course costs less than 7 hours of fully-loaded
-developer time &mdash; or four hours for a DevOps freelancer capable of doing this right.
+Don't want to pay for a good DevOps freelancer until you have income to match?
+Pay less than a half-day of their time and get a DevOps solution for weeks or months
+until you've scaled out and have customers and income.
 
 Buy now for: <s>$349</s>$299
 
