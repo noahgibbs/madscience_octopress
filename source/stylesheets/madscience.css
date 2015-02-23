@@ -29,3 +29,7 @@ body article img:not(.no-border) {
 b {
   color: #00C000;
 }
+
+.normal-bold {
+  font-weight: bold;
+}
