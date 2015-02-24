@@ -222,7 +222,7 @@ You'll have my personal email address. I'll personally ensure you're taken care 
 
 <span class="normal-bold">Rails Deploy In An Hour</span> is presented by Noah Gibbs, acclaimed author of
 <a href="http://rebuilding-rails.com">Rebuilding Rails</a>. Noah has presented at <a href="http://gogaruco.com">Golden Gate
-Ruy Conference</a>, taught Ruby on Rails at <a href="http://www.cmu.edu/silicon-valley/">Carnegie Mellon's Silicon Valley campus</a> for their MSE program.
+Ruby Conference</a>, taught Ruby on Rails at <a href="http://www.cmu.edu/silicon-valley/">Carnegie Mellon's Silicon Valley campus</a> for their MSE program.
 
 His must-have book Rebuilding Rails has been used at the University of
 Washington, several different Rails bootcamps and Satish Talim’s
