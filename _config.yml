@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.rubymadscience.com
-title: Ruby Mad Science
-subtitle: Get Ruby Terrorizing Peasants, Now!
+url: http://www.rails-deploy-in-an-hour.com
+title: Rails Deploy In An Hour
+subtitle: Get Your Ruby Web App Online, Now!
 author: Noah Gibbs
 simple_search: http://google.com/search
-description: Ruby wants to do good and evil in the real world.  Let it.
+description: Deploy Ruby with standard tools and open source software, fast and well.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
