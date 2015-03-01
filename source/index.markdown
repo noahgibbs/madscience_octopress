@@ -101,7 +101,7 @@ Here's what's inside:
 * A pain-free initial process, then troubleshooting and customization when you want.
 * Documentation to take you from "I know Rails and can get along in the shell" to "I can use these tools."
 * Pointers on where next, if you need more mastery of these standard open-source tools.
-* <a href="http://github.com/noahgibbs/madscience_deploy_repo">Open-source software</a> with no hidden secrets.
+* <a href="http://github.com/noahgibbs/madscience">Open-source software</a> with no hidden secrets.
 
 Start with the "I NEED IT DEPLOYED NOW" fast instructions with minimal theory, <b>plus</b> a
 slower path that teaches you what the tools do and why. Start quickly, then learn more deeply when you need to.
