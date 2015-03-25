@@ -12,7 +12,7 @@ no_navbar: true
 
   <div class="pull-right captioned-image">
   <img src="/images/rdiah-on-table-420.png" width="210" height="210" alt="RDIAH e-boxed-set on a table" title="Proof I'm not selling you a Photoshop class." /><br/>
-  <p>Will it join your digital library?</p>
+  <p>A solution for your digital library?</p>
   </div>
 
 <p>How many hours have you wasted trying to get your Rails app online? Trying to
