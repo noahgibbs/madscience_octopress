@@ -17,6 +17,13 @@ body article img:not(.no-border) {
   margin: 15px;
 }
 
+/*
+.entry-content section:nth-child(odd) {
+  background-image: url('/images/seamless_paper_bright.png');
+  background-color: rgba(0,0,0,0.025);
+}
+*/
+
 .buy-me-button {
   margin-top: 20px;
   padding-top: 30px;
