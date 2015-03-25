@@ -121,7 +121,7 @@ time you put a simple app online. Later deploys will be quicker than that —
 <li>A pain-free initial process, then troubleshooting and customization when you want.</li>
 <li>Documentation to take you from &ldquo;I know Rails and can get along in the shell&rdquo; to &ldquo;I can use these tools.&rdquo;</li>
 <li>Pointers on where next, if you need more mastery of these standard open-source tools.</li>
-<li><a href="http://github.com/noahgibbs/madscience">Open-source software</a> with no hidden secrets.</li>
+<li><a href="http://github.com/noahgibbs/madscience" target="_blank">Open-source software</a> with no hidden secrets.</li>
 </ul>
 
 
