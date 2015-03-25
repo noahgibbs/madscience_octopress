@@ -142,7 +142,7 @@ slower path that teaches you what the tools do and why. Start quickly, then lear
 <ul>
 <li>&ldquo;How-to&rdquo; videos matched with chapters, so you can jump right into deploying your application</li>
 <li>The book of Ruby deployment in the right amount of depth. NOT a &ldquo;do it yourself&rdquo; tools
-tutorial (<a href="table-of-contents">Table of Contents</a>)</li>
+tutorial</li>
 <li>The Troubleshooting Guide giving step-by-step error messages and quick fixes for common problems.</li>
 <li>Free updates for life!</li>
 </ul>
@@ -242,7 +242,7 @@ You&rsquo;ll also get the &ldquo;how-to&rdquo; videos, plus exclusive tech talks
 
 <p>Get the class ebook, the Troubleshooting Guide and the &ldquo;how-to&rdquo; videos for only $99. You&rsquo;ll get free updates for life.</p>
 
-<div class="text-center"><a href="https://gum.co/rdiah-dev" class="btn btn-lg btn-warning buy-me-button">Buy now: $79</a></div>
+<div class="text-center"><a href="https://gum.co/rdiah-dev" class="btn btn-lg btn-warning buy-me-button">Buy now: $99</a></div>
 
 </section>
 <section>
