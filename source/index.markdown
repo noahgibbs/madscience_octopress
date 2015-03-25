@@ -161,6 +161,8 @@ application servers, multi-server setups&hellip;</li>
 
 <p>(You can also email me to upgrade at any time.)</p>
 
+<img src="/images/hero_shot.png" width="1024" height="768" alt="Various guides and interviews from RDIAH" />
+
 </section>
 <section>
 
