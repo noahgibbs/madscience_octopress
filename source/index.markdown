@@ -12,7 +12,7 @@ no_navbar: true
 
   <div class="pull-right captioned-image">
   <img src="/images/rdiah-on-table-420.png" width="210" height="210" alt="RDIAH e-boxed-set on a table" title="Proof I'm not selling you a Photoshop class." /><br/>
-  <p>A solution for your digital library?</p>
+  <p>Belongs in your digital library?</p>
   </div>
 
 <p>How many hours have you wasted trying to get your Rails app online? Trying to
@@ -281,6 +281,8 @@ You&rsquo;ll also get the &ldquo;how-to&rdquo; videos, plus exclusive tech talks
 <p><span class="normal-bold">Rails Deploy In An Hour</span> is presented by Noah Gibbs, acclaimed author of
 <a href="http://rebuilding-rails.com">Rebuilding Rails</a>. Noah has presented at <a href="http://gogaruco.com">Golden Gate
 Ruby Conference</a>, taught Ruby on Rails at <a href="http://www.cmu.edu/silicon-valley/">Carnegie Mellon&rsquo;s Silicon Valley campus</a> for their MSE program.</p>
+
+<img class="pull-right" src="/images/rr_workshop.jpg" width="408" height="306" alt="A workshop based on Rebuilding Rails" />
 
 <p>His must-have book Rebuilding Rails has been used at the University of
 Washington, several different Rails bootcamps and Satish Talim’s
